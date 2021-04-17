@@ -1,0 +1,107 @@
+*{
+box-sizing: border-box;
+
+}
+
+body{
+   background-color: whitesmoke;
+}
+
+h4,
+h3,
+p{
+   color: white;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+   font-size: 13px;
+   
+}
+
+.backgroundhome, 
+.backgroundbio {
+   background-size: cover;
+   background-position: center;
+   background-repeat: no-repeat;
+   width: 1000px;
+}
+
+.backgroundhome{
+   background-image: url("img/wivina_header.jpeg");
+   height: 400px;
+  
+   
+}
+
+.backgroundbio {
+   background-image: url(img/wivinastrand.jpeg);
+   /* height: 400px; */
+   background-attachment: fixed;
+   display: flex;
+   padding: 40px;
+}
+
+.containergrid{
+   width: 1000px;
+   margin: auto;
+
+}
+
+.navigationgrid{
+   background-color: #342E2E;
+   margin-top: -10px;
+   height: 50px;
+   display: flex;
+   align-items: center;
+   position: fixed;
+   width: 1000px;
+}
+
+.footergrid{
+   background-color: #342E2e;
+   height: 100px;
+   width: 1000px;
+   padding-top: 5px;
+   padding-left: 10px;
+
+}
+
+img{
+   height: 50px;
+   margin-top: 3px;
+
+}
+
+
+
+
+a:link, a:visited, a:active  {
+   text-align: left;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+   font-size: 13px;
+   text-decoration: none;
+   font-weight: lighter;
+   color: rgb(255, 255, 255);
+   padding-right: 10px;
+
+}
+
+a:hover{
+   text-align: left;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+   font-size: 13px;
+   text-decoration: none;
+   color: #FB830F;
+   padding-right: 10px;
+   transition: 1s;
+}
+
+.textfield {
+   background-color: rgba(255, 255, 255, 0.5);
+   padding: 5rem;
+   border-radius: 15px;
+   margin-top: 2rem;
+}
+
+.textfield h3, h4,
+.textfield p {
+   color: #342E2E;
+}
