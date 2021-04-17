@@ -73,7 +73,10 @@ img{
 
 
 
-a:link, a:visited, a:active  {
+a:link, 
+a:visited, 
+a:active,
+a:hover  {
    text-align: left;
    font-family: Verdana, Geneva, Tahoma, sans-serif;
    font-size: 13px;
@@ -85,12 +88,7 @@ a:link, a:visited, a:active  {
 }
 
 a:hover{
-   text-align: left;
-   font-family: Verdana, Geneva, Tahoma, sans-serif;
-   font-size: 13px;
-   text-decoration: none;
    color: #FB830F;
-   padding-right: 10px;
    transition: 1s;
 }
 
