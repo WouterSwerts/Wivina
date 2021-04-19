@@ -1,5 +1,3 @@
-.gitignore
-   /img
 
 *{
 box-sizing: border-box;
@@ -39,7 +37,7 @@ p{
    /* height: 400px; */
    background-attachment: fixed;
    display: flex;
-   padding: 40px;
+   /* padding: 40px; */
 }
 
 .containergrid{
@@ -97,12 +95,13 @@ a:hover{
 
 .textfield {
    background-color: rgba(255, 255, 255, 0.5);
-   padding: 5rem;
+   padding: 50px;
+   margin-top: 50px;
    border-radius: 15px;
    margin-top: 2rem;
 }
 
-.textfield h3, h4,
+.textfield h3, .textflied h4,
 .textfield p {
    color: #342E2E;
 }
