@@ -34,10 +34,8 @@ p{
 
 .backgroundbio {
    background-image: url(img/wivinastrand.jpeg);
-   /* height: 400px; */
    background-attachment: fixed;
    display: flex;
-   /* padding: 40px; */
 }
 
 .containergrid{
@@ -96,12 +94,13 @@ a:hover{
 .textfield {
    background-color: rgba(255, 255, 255, 0.5);
    padding: 50px;
-   margin-top: 50px;
+   margin: 5rem;;
    border-radius: 15px;
-   margin-top: 2rem;
+
 }
 
-.textfield h3, .textflied h4,
+.textfield h3,
+.textflied h4,
 .textfield p {
    color: #342E2E;
 }
